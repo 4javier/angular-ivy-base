@@ -1,4 +1,6 @@
 <hello name="{{ name }}"></hello>
-<p *ngIf="true">
+<p *ngIf="false">
   Start editing to see some magic happen :)
 </p>
+
+<div *ngIf="(obj | keyvalue).length ===0"></div>
